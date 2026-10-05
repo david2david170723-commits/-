@@ -1,0 +1,63 @@
+```html
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💣 Клікер Бомби</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #09001a, #18002e, #001a2e);
+            color: white;
+        }
+
+        .game {
+            width: 420px;
+            padding: 30px;
+            text-align: center;
+            border: 2px solid #8a2be2;
+            border-radius: 25px;
+            background: rgba(15, 10, 35, 0.9);
+            box-shadow: 0 0 30px #8a2be2;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #ff3cac;
+            text-shadow: 0 0 15px #ff3cac;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .stat {
+            padding: 10px 15px;
+            border-radius: 12px;
+            background: #24104a;
+            border: 1px solid #7b2cff;
+        }
+
+        .number {
+            display: block;
+            font-size: 25px;
+            font-weight: bold;
+            color: #00f7ff;
+        }
+
+        #bomb {
+            width: 19
+```
